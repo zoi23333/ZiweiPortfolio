@@ -690,7 +690,7 @@
 .text-block-3 {
   color: #444;
   text-align: center;
-  width: 800px;
+  width: auto;
   margin-bottom: 10px;
   font-size: 1rem;
 }
@@ -812,10 +812,14 @@
 
 .container-7 {
   background-color: #f2f3f2;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   max-width: none;
   margin-left: 0;
   margin-right: 0;
   padding: 3vw 8vw;
+  display: flex;
   position: static;
 }
 
@@ -2488,10 +2492,18 @@
   position: relative;
 }
 
-.ecotitlediv, .wanderingtitlediv {
+.ecotitlediv {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  display: flex;
+}
+
+.wanderingtitlediv {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
   display: flex;
 }
 
@@ -2559,7 +2571,11 @@
     min-height: 30vh;
   }
 
-  .projectpagetab, .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
+  .projectpagetab {
+    width: 1180px;
+  }
+
+  .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
     width: 1080px;
   }
 }
@@ -2712,7 +2728,11 @@
     top: 71%;
   }
 
-  .projectpagetab, .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
+  .projectpagetab {
+    width: 1180px;
+  }
+
+  .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
     width: 1080px;
   }
 }
@@ -2862,18 +2882,22 @@
   }
 
   .sectab.tab-link-tab-1-2 {
-    width: 145px;
+    width: 119px;
   }
 
   .tabs-menu-2 {
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    width: 780%;
+    width: auto;
   }
 
   .briefimage {
-    width: 90%;
+    width: 1080px;
+  }
+
+  .progressimage {
+    width: auto;
   }
 
   .image-13 {
@@ -2892,8 +2916,20 @@
     left: 44%;
   }
 
-  .projectpagetab, .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
+  .projectpagetab {
+    width: 1180px;
+  }
+
+  .projectpagetabintro {
+    width: 1080px;
+  }
+
+  .projectpagetab-copy {
     width: 1460px;
+  }
+
+  .projectpagetab-small {
+    width: 1180px;
   }
 }
 
@@ -3225,6 +3261,11 @@
     left: 5%;
     right: 0%;
   }
+
+  .projectpagetab {
+    width: 90vw;
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3483,6 +3524,10 @@
 
   .saascard-copy {
     height: 270px;
+  }
+
+  .projectpagetab {
+    height: 60vw;
   }
 }
 
