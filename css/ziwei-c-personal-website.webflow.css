@@ -681,7 +681,7 @@
   color: #276189;
   text-align: center;
   width: 800px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 2.2rem;
   font-weight: 400;
   position: relative;
@@ -722,7 +722,7 @@
   margin-right: 8vw;
   padding-top: 7vh;
   padding-bottom: 20vh;
-  display: flex;
+  display: block;
   position: static;
 }
 
@@ -767,9 +767,13 @@
 
 .skillscontainer {
   background-color: #e2e9bb;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
   max-width: none;
   margin-left: 0;
   margin-right: 0;
+  display: flex;
   position: relative;
 }
 
@@ -781,12 +785,14 @@
   margin-left: 8vw;
   margin-right: 8vw;
   padding-top: 7vw;
-  padding-bottom: 14vw;
-  display: block;
+  padding-bottom: 10vw;
+  display: flex;
 }
 
 .image-6 {
   width: 100%;
+  max-width: 90%;
+  max-height: 1200px;
   margin-top: 7vh;
 }
 
@@ -796,11 +802,11 @@
   background-color: #fff;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   max-width: none;
   margin-left: 0;
   margin-right: 0;
-  display: block;
+  display: flex;
   position: relative;
 }
 
@@ -826,6 +832,7 @@
 }
 
 .projecttabs {
+  width: 82vw;
   margin-top: 1vw;
 }
 
@@ -1708,6 +1715,8 @@
   flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin-left: 8vw;
+  margin-right: 8vw;
   display: flex;
 }
 
@@ -1925,7 +1934,7 @@
 
 .briefimage {
   background-color: #fff;
-  width: 83vw;
+  width: 1280px;
   margin-right: 0;
   padding-top: 80px;
   padding-bottom: 210px;
@@ -1936,8 +1945,8 @@
   color: #444;
   text-align: center;
   margin-top: 90px;
-  margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 3vw;
+  padding-bottom: 0;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -1954,18 +1963,18 @@
 .progressimage {
   color: rgba(51, 51, 51, 0);
   border: 0 solid #000;
-  width: 91vw;
+  width: 99vw;
   margin-bottom: 5px;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 0;
+  margin-right: 0;
   display: block;
 }
 
 .tabs-content {
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  display: block;
+  display: flex;
 }
 
 .heading-8 {
@@ -2143,8 +2152,9 @@
 .progressimage-small {
   color: rgba(51, 51, 51, 0);
   border: 0 solid #000;
-  width: 83.5vw;
-  margin: 20px 6vw 5px;
+  border-radius: 6px;
+  width: auto;
+  margin: 20px 0 40px;
   display: block;
 }
 
@@ -2260,11 +2270,13 @@
 .container-portfolio {
   background-color: #f7f8f2;
   flex-flow: column;
+  justify-content: center;
+  align-items: center;
   max-width: none;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  padding: 3vw 8vw 5vw;
+  padding: 3vw 0 5vw;
   display: flex;
   position: static;
 }
@@ -2353,7 +2365,7 @@
   background-position: 50%;
   background-size: cover;
   border-radius: 6px;
-  height: 30vh;
+  height: 25vh;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .05);
 }
 
@@ -2364,7 +2376,8 @@
   border-radius: 6px;
   width: 100%;
   max-width: 100%;
-  min-height: 30vh;
+  height: 25vh;
+  min-height: 0;
   line-height: 30px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .05);
 }
@@ -2374,7 +2387,7 @@
   background-position: 50%;
   background-size: cover;
   border-radius: 6px;
-  min-height: 30vh;
+  min-height: 25vh;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .05);
 }
 
@@ -2453,7 +2466,7 @@
   flex-flow: column;
   justify-content: flex-start;
   align-items: center;
-  width: 800px;
+  width: auto;
   display: flex;
   position: relative;
 }
@@ -2463,7 +2476,7 @@
   position: absolute;
   top: -7%;
   bottom: auto;
-  left: 38%;
+  left: 41%;
   right: 0%;
 }
 
@@ -2482,7 +2495,30 @@
   display: flex;
 }
 
+.projectpagetab {
+  width: 1180px;
+  height: 750px;
+}
+
+.projectpagetabintro {
+  width: 1080px;
+  height: 750px;
+}
+
+.projectpagetab-copy {
+  width: 1180px;
+}
+
+.projectpagetab-small {
+  width: 1080px;
+  height: 750px;
+}
+
 @media screen and (min-width: 1280px) {
+  .image-6 {
+    max-width: 90%;
+  }
+
   .bgicon7-arrow {
     width: 15vw;
     top: 35px;
@@ -2497,6 +2533,34 @@
 
   .bgicon11 {
     top: 56px;
+  }
+
+  .div-block-7, .div-block-8 {
+    min-height: 30vh;
+  }
+
+  .div-block-9 {
+    height: 30vh;
+  }
+
+  .div-block-10, .div-block-11 {
+    min-height: 30vh;
+  }
+
+  .briefimage {
+    width: 100%;
+  }
+
+  .de1image, .div-block-8-copy {
+    height: 30vh;
+  }
+
+  .div-block-11-copy {
+    min-height: 30vh;
+  }
+
+  .projectpagetab, .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
+    width: 1080px;
   }
 }
 
@@ -2540,6 +2604,10 @@
     max-width: none;
     margin-left: 8vw;
     margin-right: 8vw;
+  }
+
+  .image-6 {
+    max-width: 85%;
   }
 
   .text-block-9, .text-block-10, .text-block-11, .text-block-12 {
@@ -2609,14 +2677,26 @@
     text-align: center;
   }
 
+  .tabs-content {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .plantpalcard, .saascard {
     padding-bottom: 0;
+  }
+
+  .de1image, .div-block-8-copy {
+    height: 30vh;
   }
 
   .div-block-11-copy {
     background-position: 50%;
     background-size: cover;
     border-radius: 6px;
+    min-height: 30vh;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
   }
 
@@ -2624,8 +2704,16 @@
     padding-bottom: 0;
   }
 
+  .image-14 {
+    left: 42%;
+  }
+
   .divskilltext {
     top: 71%;
+  }
+
+  .projectpagetab, .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
+    width: 1080px;
   }
 }
 
@@ -2708,6 +2796,21 @@
     line-height: 30px;
   }
 
+  .skillscontainer {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .container-6 {
+    max-width: 80%;
+  }
+
+  .image-6 {
+    max-width: 1400px;
+  }
+
   .heading-6 {
     line-height: 2vw;
   }
@@ -2758,6 +2861,21 @@
     height: 30vh;
   }
 
+  .sectab.tab-link-tab-1-2 {
+    width: 145px;
+  }
+
+  .tabs-menu-2 {
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 780%;
+  }
+
+  .briefimage {
+    width: 90%;
+  }
+
   .image-13 {
     width: 1450px;
   }
@@ -2768,6 +2886,14 @@
 
   .div-block-8-copy, .div-block-11-copy {
     min-height: 30vh;
+  }
+
+  .image-14 {
+    left: 44%;
+  }
+
+  .projectpagetab, .projectpagetabintro, .projectpagetab-copy, .projectpagetab-small {
+    width: 1460px;
   }
 }
 
