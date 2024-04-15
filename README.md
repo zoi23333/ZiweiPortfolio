@@ -1,3 +1,3 @@
 # Hey, this is Ziwei's Portfolio 
 
-Please Check it here: https://amazing-dango-8d204b.netlify.app/
+Feel free to explore my portfolio by clicking here: https://amazing-dango-8d204b.netlify.app/
