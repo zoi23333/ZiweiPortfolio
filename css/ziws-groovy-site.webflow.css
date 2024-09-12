@@ -8047,7 +8047,8 @@ strong {
   }
 
   .heading-1-large.load-2nd {
-    font-size: 55px;
+    margin-bottom: 0;
+    font-size: 50px;
   }
 
   .hero-section {
@@ -8083,8 +8084,8 @@ strong {
   .card-title {
     color: var(--black);
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 26px;
   }
 
   .card {
@@ -8412,7 +8413,7 @@ strong {
 
   .text-block-2 {
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
   }
 
   .text-lead-for-exper, .text-lead-2 {
@@ -8434,8 +8435,8 @@ strong {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 240px;
+    padding-right: 240px;
     display: flex;
   }
 
@@ -9713,7 +9714,7 @@ strong {
   .heading-2-medium-hero.fade-in-1st-copy.load-1st {
     letter-spacing: 0;
     max-width: 660px;
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .heading-1-large-color {
@@ -9721,7 +9722,7 @@ strong {
   }
 
   .heading-1-large-color.load-1st {
-    font-size: 62px;
+    font-size: 56px;
   }
 
   .heading-1-large-color.load-2nd {
@@ -9730,6 +9731,14 @@ strong {
 
   .image-me {
     margin-right: 0;
+  }
+
+  .image-me.load-1st {
+    width: 450px;
+    max-width: 110%;
+    margin-top: 10px;
+    margin-right: 0;
+    padding-bottom: 0;
   }
 
   .div-block-11 {
@@ -9760,7 +9769,7 @@ strong {
   }
 
   .hero-section-grid {
-    padding: 50px 150px 80px 180px;
+    padding: 50px 220px 80px 280px;
     font-size: 60px;
   }
 
