@@ -5496,7 +5496,7 @@ strong {
 
 .button-hover-3 {
   z-index: 1;
-  background-color: var(--yellow);
+  background-color: var(--black);
   width: 100%;
   height: 0%;
   position: absolute;
@@ -7807,6 +7807,90 @@ strong {
   padding-top: 60px;
 }
 
+.container-14-rehab {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  height: auto;
+  padding-top: 50px;
+  display: flex;
+}
+
+.button-8-project {
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #c0ccda;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 20px 30px;
+  font-size: 80%;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  transition: color .3s;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-8-project:hover {
+  color: #fff;
+}
+
+.button-8-project.fade-in-1st {
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  position: static;
+  inset: auto auto 50px;
+}
+
+.button-8-project.fade-in-1st:hover {
+  z-index: 9999;
+}
+
+.button-8-project.fade-in-1st.load-1st {
+  margin-top: 25px;
+}
+
+.container-14-circ {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  height: auto;
+  padding-top: 50px;
+  display: flex;
+}
+
+.container-14-plant {
+  background-color: #f9fafc;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  height: auto;
+  padding-top: 50px;
+  display: flex;
+}
+
+.container-14-wanding {
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  max-width: none;
+  height: auto;
+  padding-top: 50px;
+  display: flex;
+}
+
 @media screen and (min-width: 1280px) {
   .heading-1-large.load-2nd {
     font-size: 50px;
@@ -8022,6 +8106,15 @@ strong {
 
   .overlaydd-copy.overlay-dark, .overlaydd5.overlay-dark, .overlaydd6.overlay-dark {
     z-index: 0;
+  }
+
+  .button-8-project.fade-in-1st {
+    z-index: 999;
+    margin-bottom: 40px;
+  }
+
+  .button-8-project.fade-in-1st:hover {
+    z-index: 9999;
   }
 }
 
@@ -10052,6 +10145,37 @@ strong {
   .overlaydd6.overlay-dark {
     background-color: #d6d6d657;
   }
+
+  .container-14-rehab {
+    max-width: none;
+  }
+
+  .button-8-project {
+    padding: 2vw 3vw;
+  }
+
+  .button-8-project.fade-in-1st {
+    z-index: 999;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: row;
+    width: 240px;
+    margin-bottom: 60px;
+    padding: 1.6vw 3.3vw;
+    bottom: 50px;
+  }
+
+  .button-8-project.fade-in-1st:hover {
+    z-index: 9999;
+  }
+
+  .button-8-project.fade-in-1st.load-1st {
+    width: auto;
+  }
+
+  .container-14-circ, .container-14-plant, .container-14-wanding {
+    max-width: none;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -11585,6 +11709,25 @@ strong {
     width: 20vw;
     height: 20vw;
     min-height: 0;
+  }
+
+  .button-8-project.fade-in-1st {
+    z-index: 999;
+    width: 280px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 1.8vw 2vw;
+    font-size: 18px;
+    bottom: 50px;
+  }
+
+  .button-8-project.fade-in-1st:hover {
+    z-index: 9999;
+  }
+
+  .button-8-project.fade-in-1st.load-1st {
+    margin-top: 50px;
   }
 }
 
@@ -13542,6 +13685,10 @@ strong {
   .hero-image6.two, .hero-image6.three {
     margin-top: -55vw;
     left: -53vw;
+  }
+
+  .button-8-project {
+    width: 100%;
   }
 }
 
