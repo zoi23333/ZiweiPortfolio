@@ -3933,7 +3933,7 @@ strong {
   padding-bottom: 5px;
   font-family: PlusJakartaDisplay, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 24px;
   display: block;
 }
@@ -5517,8 +5517,8 @@ strong {
 .container-8-intro.intro {
   background-color: var(--lightblue);
   margin-top: 0;
-  padding-top: 120px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .container-8-intro.user-testing {
@@ -9034,7 +9034,8 @@ strong {
   }
 
   .project-content-bold {
-    margin-bottom: 3vw;
+    margin-bottom: 5px;
+    font-size: 22px;
   }
 
   .project-content-bold.fade-in-1st {
@@ -9134,6 +9135,10 @@ strong {
     height: auto;
     display: grid;
     position: relative;
+  }
+
+  .bold-text-2 {
+    font-size: 22px;
   }
 
   .kuan-section {
@@ -9275,8 +9280,8 @@ strong {
   }
 
   .project-content-bold-copy {
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-bottom: 5px;
+    font-size: 22px;
   }
 
   .project-content-bold-copy.fade-in-1st {
@@ -9347,6 +9352,11 @@ strong {
 
   .slider-3 {
     width: 930px;
+  }
+
+  .div-block-8 {
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
   }
 
   .project-content-rehab-1st-copy.fade-in-1st {
@@ -9465,7 +9475,7 @@ strong {
   }
 
   .container-8-intro.intro {
-    padding-top: 140px;
+    padding-top: 120px;
     padding-bottom: 110px;
   }
 
@@ -9642,8 +9652,14 @@ strong {
     text-align: center;
   }
 
+  .button-titlehover {
+    top: 184px;
+    left: 393px;
+  }
+
   .title-card {
-    left: 411px;
+    display: none;
+    left: 399px;
   }
 
   .image-36-2 {
@@ -10015,6 +10031,11 @@ strong {
 
   .icon-under-text.fade-in-1st-copy {
     text-align: center;
+  }
+
+  .div-intro-right-rehab {
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
   }
 
   .content-container-intro-card-copy {
