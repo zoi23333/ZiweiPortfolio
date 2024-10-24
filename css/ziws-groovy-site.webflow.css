@@ -9917,6 +9917,10 @@ strong {
     margin-bottom: 0;
   }
 
+  .visitbutton {
+    display: flex;
+  }
+
   .coming-soon {
     margin-bottom: 2vw;
   }
