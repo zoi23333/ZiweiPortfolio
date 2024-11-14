@@ -7337,7 +7337,7 @@ strong {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  display: flex;
+  display: none;
 }
 
 .icon-under-text {
@@ -8802,7 +8802,7 @@ strong {
   padding-top: 0;
   padding-bottom: 0;
   font-family: PlusJakartaDisplay, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
@@ -8832,6 +8832,7 @@ strong {
 }
 
 .saas-ui-1 {
+  width: 100%;
   padding-top: 30px;
 }
 
@@ -8870,10 +8871,12 @@ strong {
 }
 
 ._3rd-titile-saas-single.fade-in-2nd {
-  margin-top: 45px;
+  margin-top: 55px;
+  font-size: 20px;
 }
 
 .saas-ui-1-last {
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -8942,7 +8945,7 @@ strong {
   text-align: center;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 960px;
   max-width: 960px;
   margin-left: auto;
@@ -9317,6 +9320,58 @@ strong {
   width: 75%;
 }
 
+.div-block-3-saas-copy {
+  text-align: center;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.div-block-3-saas-copy.fade-in-1st {
+  font-size: 22px;
+}
+
+.label-for-atomic {
+  color: var(--white);
+  text-align: left;
+  background-color: #514cf7;
+  border-radius: 6px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  margin-bottom: -15px;
+  padding: 2px 7px;
+  font-size: 12px;
+  display: flex;
+}
+
+.label-for-atomic-single {
+  color: var(--white);
+  text-align: left;
+  background-color: #514cf7;
+  border-radius: 6px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom: -15px;
+  padding: 2px 7px;
+  font-size: 11px;
+  display: flex;
+}
+
+.saas-ui-1-copy {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.image-45 {
+  max-width: 130%;
+}
+
 @media screen and (min-width: 1280px) {
   .heading-1-large.load-2nd {
     font-size: 50px;
@@ -9597,6 +9652,10 @@ strong {
   .container-7-white-copy {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .image-45 {
+    max-width: 130%;
   }
 }
 
@@ -11491,6 +11550,10 @@ strong {
     text-align: center;
   }
 
+  .runingman {
+    display: none;
+  }
+
   .icon-under-text {
     margin-top: 0;
     margin-bottom: 0;
@@ -12071,6 +12134,10 @@ strong {
 
   .plantlowui {
     max-width: 160%;
+  }
+
+  .image-45 {
+    max-width: 140%;
   }
 }
 
