@@ -1336,7 +1336,7 @@ strong {
 }
 
 .section-4 {
-  background-color: var(--yellow);
+  background-color: var(--green);
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -10679,7 +10679,9 @@ strong {
   }
 
   .bold-text-2 {
+    z-index: 0;
     font-size: 22px;
+    position: relative;
   }
 
   .kuan-section {
