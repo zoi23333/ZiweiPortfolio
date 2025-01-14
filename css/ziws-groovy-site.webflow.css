@@ -9808,8 +9808,8 @@ strong {
 }
 
 .grid-3 {
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
+  grid-column-gap: 6vw;
+  grid-row-gap: 6vw;
   grid-template-rows: auto;
   grid-template-columns: .75fr 1fr;
 }
@@ -12834,6 +12834,11 @@ strong {
   .text-block-2-copy {
     text-align: left;
     font-size: 16px;
+  }
+
+  .grid-3 {
+    grid-column-gap: 8vw;
+    grid-row-gap: 8vw;
   }
 
   .div-block-21 {
